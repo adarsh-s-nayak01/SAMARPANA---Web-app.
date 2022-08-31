@@ -1,0 +1,170 @@
+.App {
+  background-color: rgb(253, 253, 253);
+}
+
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image:  url('C:\Users\Hp\Desktop\samagic\Test\client\src\images\one.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: rgb(17, 1, 1);
+}
+.a123{
+  text-decoration: none;
+}
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+  background-color: rgb(120, 114, 110);
+  color: rgb(200, 159, 159);
+}
+.cte {
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(47, 43, 169);
+  padding: 10px;
+}
+
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(243, 239, 239);
+  font-weight: 800;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(222, 200, 200);
+}
+/* .donor-styling {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+} */
+.home-page{
+  /* background-color: aqua; */
+  /* background-color: aqua; */
+  /* background-image:  url('C:\Users\Hp\Desktop\samagic\Test\client\src\images\one.jpg'); */
+ 
+  height: 60;
+  color:#fff;
+  
+  background-color: rgb(2, 1, 0);
+  
+  
+}
+.heading{
+  text-align: center;
+  font-style: oblique;
+}
+
+
+
+.row {
+  margin: 6px -14px;
+  /* padding: 400; */
+  position: absolute;
+  float: auto;
+  align-items: center;
+  background-image:  url('C:\Users\Hp\Desktop\samagic\Test\client\src\images\one.jpg');
+  /* background-image:  url('C:\Users\Basava\Desktop\Test\Test\client\src\components\img2.jpg'); */
+  /* background-image:  url('C:\Users\Hp\Desktop\samagic\Test\client\src\images\login_page.jpeg'); */
+  opacity: 200;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.row,
+.row > .column {
+  padding: 140px;
+
+  /* display: flex ; */ 
+  /* align-items: center; */
+}
+
+
+.column {
+  float: left;
+  width:40%;
+  border-radius: 20px;
+  /* width: 200px; */
+  padding: 10px;
+  background-color:transparent;
+  color: rgb(235, 226, 226);
+  font-size: larger;
+  font-weight: 800;
+  align-items: center;
+  margin-left:100px;
+  /* padding-left: 30px;
+   */
+   /* padding: ; */
+  /* flex:1; */
+
+}
+
+.sub{
+  font-size: 70px;
+  font-weight: 2000;
+  text-decoration: none;
+}
+.row :hover {
+  transition: 0.5s;
+  -ms-transform: scale(1.2); 
+  -webkit-transform: scale(1.2); 
+  transform: scale(1.2); 
+  background-color: rgb(17, 17, 16);
+  box-shadow: 0px 0px 30px #fff;
+}
+.row p:hover {
+  transition: 0.7s;
+  -ms-transform: scale(1.0); 
+  -webkit-transform: scale(1.0); 
+  transform: scale(1.0); 
+  /* box-shadow: 0px 0px 0px #fff; */
+}
+/* .row div:hover {
+  transition: 0.7s;
+  -ms-transform: scale(1.0); 
+  -webkit-transform: scale(1.0); 
+  transform: scale(1.0); 
+  /* box-shadow: 0px 0px 0px #fff; */
+/* } */ */
+.row h1:hover {
+  transition: 0.7s;
+  -ms-transform: scale(1.0); 
+  -webkit-transform: scale(1.0); 
+  transform: scale(1.0); 
+  /* box-shadow: 0px 0px 0px #fff; */
+}
+
+
+
+.donar_page{
+  background-color: rgb(98, 97, 95) ;
+  align-content: center;
+}
+
+.post{
+  background-color: black;
+  color: whitesmoke;
+  padding:20,
+}
